@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="型 &apos;Capule&apos; を &apos;Capsule&apos; に名前変更します&#x0D;&#x0A;- 元のプロジェクト: &apos;Capsule&apos;&#x0D;&#x0A;- オリジナル要素: &apos;Capule&apos;&#x0D;&#x0A;- 名前変更済み要素: &apos;Capsule&apos;&#x0D;&#x0A;- リファクタリングされた要素の参照を更新&#x0D;&#x0A;- コメントおよびストリング内のテキスト出現箇所の更新" description="型名 &apos;Capule&apos; を変更します" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{Capule.java[Capule" matchStrategy="1" name="Capsule" qualified="false" references="true" similarDeclarations="false" stamp="1510892527715" textual="false" version="1.0"/>
+</session>
