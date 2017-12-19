@@ -1,5 +1,0 @@
-商品一覧⇒catalog
-商品詳細⇒productdetail
-カート⇒cart
-
-
