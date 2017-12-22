@@ -10,6 +10,5 @@
 <body>
 <h1>エラーが発生しました。</h1>
 <p>恐れ入りますが、<a href='<s:url action="HomeAction" />'>ログイン</a>からやり直してください。</p>
-
 </body>
 </html>

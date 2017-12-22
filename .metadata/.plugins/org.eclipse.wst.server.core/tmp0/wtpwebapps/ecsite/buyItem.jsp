@@ -69,14 +69,21 @@
 			<p>BuyItem</p>
 		</div>
 		<div>
-		<s:form action="BuyItemAction">
-			<table>
+
+			<div>
+				<p>前画面に戻る場合は<a href='<s:url action="GoHomeAction" />'>こちら</a></p>
+				<p>マイぺージは<a href='<s:url action="MyPageAction" />'>こちら</a></p>
+			</div>
+		</div><s:form action="BuyItemAction">
+
+
+					<table>
 				<tr>
 					<td>
 						<span>商品名</span>
 					</td>
 					<td>
-						<s:property value="session.buyItem_name" /><br>
+						<s:property value="session.BuyItemList(0).ItemName" /><br>
 					</td>
 				</tr>
 				<tr>
@@ -84,7 +91,7 @@
 						<span>値段</span>
 					</td>
 					<td>
-						<s:property value="session.buyItem_price" /><span>円</span>
+						<s:property value="session.BuyItemList(0).Price" /><span>円</span>
 					</td>
 				</tr>
 				<tr>
@@ -112,16 +119,12 @@
 				</tr>
 				<tr>
 					<td>
-						<s:submit value="購入"/>
+						<s:submit value="購入" />
 					</td>
 				</tr>
+
 			</table>
 		</s:form>
-			<div>
-				<p>前画面に戻る場合は<a href='<s:url action="GoHomeAction" />'>こちら</a></p>
-				<p>マイぺージは<a href='<s:url action="MyPageAction" />'>こちら</a></p>
-			</div>
-		</div>
 	</div>
 	<div id="footer">
 	 	<div id="pr">

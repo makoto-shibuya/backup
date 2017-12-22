@@ -39,6 +39,6 @@ delete_date datetime
 );
 
 
-INSERT INTO item_info_transaction(item_name, item_price, item_stock) VALUES("NoteBook", 100, 5);
-INSERT INTO item_info_transaction(item_name, item_price, item_stock) VALUES("CD", 800, 50);
+INSERT INTO item_info_transaction(item_name, item_price, item_stock) VALUES("NoteBook", 100, 50);
+INSERT INTO item_info_transaction(item_name, item_price, item_stock) VALUES("CD", 10000, 5);
 INSERT INTO login_user_transaction(login_id, login_pass, user_name) VALUES("internous", "internous01", "test");
