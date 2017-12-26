@@ -6,7 +6,7 @@
    http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
    id="WebApp_ID" version="3.0">
 
-<display-name>ecsite</display-name>
+<display-name>SampleSite</display-name>
 
 <welcome-file-list>
 <welcome-file>home.jsp</welcome-file>

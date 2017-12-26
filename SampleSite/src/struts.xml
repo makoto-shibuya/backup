@@ -7,11 +7,11 @@
 <struts>
 	<constant name="struts.devMode" value="true" />
 	<!-- 対象のpackageを設定 -->
-	<package name="com.internousdev.ecsite.action" extends="struts-default">
+	<package name="com.internousdev.SampleSite.action" extends="struts-default">
 
 		<action name="LoginAction" class="com.internousdev.SampleSite.action.LoginAction" method="execute">
-		<result name="SUCCESS">loginSuccess.jsp</result>
-		<result name="ERROR"></result>
+		<result name="success">loginSuccess.jsp</result>
+		<result name="error">home.jsp</result>
 		</action>
 
 	</package>
